@@ -18,9 +18,9 @@ func TestDirber(t *testing.T) {
 		IgnoreWildcard:   true,
 		SearchExtensions: false,
 		//Proxy:            "socks5://13.69.58.220:1080",
-		ExtensionsPath:  "../exts.txt",
-		WordlistPath:    "../fuzz.txt",
-		StatusCodesPath: "../codes.txt",
+		ExtensionsPath:  "./exts.txt",
+		WordlistPath:    "./fuzz.txt",
+		StatusCodesPath: "./codes.txt",
 	}
 	dirber, err := NewDirber(options)
 	if err != nil {
