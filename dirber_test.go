@@ -1,4 +1,4 @@
-package dirber
+package dirca
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ import (
 func TestDirber(t *testing.T) {
 	url := "http://cybersec.kz/"
 	options := &Options{
-		Threads:          30,
+		Threads:          10,
 		Timeout:          time.Second * 5,
 		FollowRedirect:   true,
 		IncludeLength:    true,

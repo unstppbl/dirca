@@ -1,4 +1,4 @@
-package dirber
+package dirca
 
 import (
 	"bufio"

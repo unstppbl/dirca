@@ -1,4 +1,4 @@
-package dirber
+package dirca
 
 // Result represents a single gobuster result
 type Result struct {
